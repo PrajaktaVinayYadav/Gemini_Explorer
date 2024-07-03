@@ -1,6 +1,17 @@
-env/
+# Virtual environment
+.venv/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-startup.py
-example.py
-streamlit_demo.py
-example2.ipynb
+*.py[cod]
+*$py.class
+
+# Streamlit config
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Other
+.env
+*.env
